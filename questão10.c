@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/*Crie um programa que solicite ao usuário dois números e uma operação matemática (+, -). Utilize o switch case para realizar a operação desejada e exibir o resultado.
+/*Crie um programa que solicite ao usuÃ¡rio dois nÃºmeros e uma operaÃ§Ã£o matemÃ¡tica (+, -). Utilize o switch case para realizar a operaÃ§Ã£o desejada e exibir o resultado.
  */
 
 int main()
@@ -14,9 +14,9 @@ int main()
     int conta;
     int resultado;
 
-    printf("Digite o 1� n�mero: ");
+    printf("Digite o 1º número: ");
     scanf("%d", &n1);
-    printf("Digite o 2� n�mero: ");
+    printf("Digite o 2º número: ");
     scanf("%d", &n2);
 
     system("cls|| clear");
@@ -24,7 +24,7 @@ int main()
     printf("1 PARA SOMAR\n");
     printf("2 PARA SUBTRAIR\n");
     printf("\n");
-    printf("ESCOLHA A OP��O DE OPERA��O: ");
+    printf("ESCOLHA A OPÇÃO DE OPERAÇÃO: ");
     scanf("%d", &conta);
 
     switch (conta)
@@ -35,11 +35,11 @@ int main()
         break;
     case 2:
         resultado = n1 - n2;
-        printf("resultado da subtra��o: %d", resultado);
+        printf("resultado da subtração: %d", resultado);
         break;
 
     default:
-        printf("Op��o inv�lida. \n");
+        printf("Opção inválida. \n");
         break;
     }
 
