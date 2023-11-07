@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-/*Crie um programa que solicite do usuário dois números inteiros e informe qual destes números é o maior e qual é o menor.*/
+/*Crie um programa que solicite do usuÃ¡rio dois nÃºmeros inteiros e informe qual destes nÃºmeros Ã© o maior e qual Ã© o menor.*/
 int main()
 {
     setlocale(LC_ALL, "portuguese");
@@ -12,7 +12,7 @@ int main()
 
     for (i = 1; i <= 2; i++)
     {
-        printf("Digite o %d� n�mero: ", i);
+        printf("Digite o %dº número: ", i);
         scanf("%d", &n);
     }
     if (n > gmaior)
@@ -24,8 +24,8 @@ int main()
         gmenor = n;
     }
     printf("\n");
-    printf("Maior n�mero: %d\n", gmaior);
-    printf("Menor n�mero: %d\n", gmenor);
+    printf("Maior número: %d\n", gmaior);
+    printf("Menor número: %d\n", gmenor);
 
     return 0;
 }
