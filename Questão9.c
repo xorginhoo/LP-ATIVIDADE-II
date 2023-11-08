@@ -4,7 +4,7 @@
 int main() {
     int numero; 
     int i; 
-    int flag = 0;
+    int det = 0;
 
     printf("Digite um numero inteiro: ");
     scanf("%d", &numero);
@@ -16,12 +16,12 @@ int main() {
 
     for (i = 2; i <= numero / 2; ++i) {
         if (numero % i == 0) {
-            flag = 1;
+            det = 1;
             break;
         }
     }
 
-    switch (flag) {
+    switch (det) {
         case 0:
             printf("Numero primo\n");
             break;
